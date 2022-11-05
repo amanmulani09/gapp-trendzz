@@ -1,0 +1,35 @@
+.signup{
+    width: 100%;
+    height: 65vh;
+    margin: auto;
+    margin-top: 53px;
+    border-radius: 7px;
+    display: flex;
+    box-sizing: 2px 2px 2px black; ;
+}
+
+.mainloginsignupFrom{
+    width: 40%;
+    border:2px solid black;
+    height: 100%;
+    /* background-color: #BF40BF; */
+    border-radius: 9px;
+    margin-left: 122px;
+  
+
+}
+
+.asideLoginFrom{
+width: 45%;
+/* border:2px solid black; */
+height: 100%;
+
+
+}
+
+.loginsvgsignup{
+    width: 450px;
+    margin-top: 44px;
+    margin-left: 133px;
+}
+

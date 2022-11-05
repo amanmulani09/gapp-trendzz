@@ -1,0 +1,54 @@
+
+
+.account{
+display: flex;
+justify-content: center;
+align-items: center;
+/* border:2px solid black; */
+height: 89vh;
+width: 98%;
+ 
+}
+
+.userinfo{
+    border:2px solid #BF40BF;
+    ;
+    width: 35%;
+    height: 60vh;
+    margin-right: 33px;
+    border-radius: 7px;
+ 
+
+}
+
+
+.profileimage{
+    width: 70%;
+}
+
+.profile{
+    width: 600px;
+    margin-left: 33px;
+}
+
+.userIcon{
+width: 150px;
+margin-left: 141px;
+}
+
+.userHeading{
+    padding: 15px;
+ text-align:center;
+}
+
+.userEmail{
+    margin-left: 102px;
+    font-weight: bold;
+}
+
+.userLogout{
+    margin-left: 170px;
+    padding: 5px;
+    border-radius: 8px;
+    border:2px solid #BF40BF;
+}

@@ -1,0 +1,74 @@
+.signupBtn{
+    position:absolute;
+    right:80px;
+    border:2px dotted white;
+    border-radius: 9px;
+    padding: 5px;
+    top:5px;
+    font-size: 1.3rem;
+    
+    
+}
+
+.signupBtn:hover{
+    background-color: white;
+    color:black;
+    border:2px dotted black;
+
+}
+
+.loginForm{
+    /* border:1px dotted #BF40BF; */
+    width: 100%;
+    height: 65vh;
+    margin: auto;
+    margin-top: 53px;
+    border-radius: 7px;
+    display: flex;
+    box-sizing: 2px 2px 2px black; ;
+    
+}
+
+.mainloginFrom{
+    width: 50%;
+    border:2px solid #9F2B68;
+    height: 100%;
+    /* background-color: #BF40BF; */
+    border-radius: 9px;
+margin-left: 53px;
+  
+
+}
+
+.asideLoginFrom{
+width: 45%;
+/* border:2px solid black; */
+height: 100%;
+
+
+}
+
+.trendz{
+    color:#BF40BF;
+}
+
+.loginsvg{
+    width: 600px;
+    margin-top: 14px;
+    margin-left: 33px;
+}
+
+.wb{
+    text-align: center;
+    margin-top: 21px;
+}
+
+
+
+.guestlogin{
+    margin-top: -70px;
+}
+
+.notAMemberSignUp{
+    margin-top: -50px;
+}
