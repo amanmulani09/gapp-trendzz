@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { Link,useNavigate } from 'react-router-dom'
-import svg from '../assets/signup.svg'
+import svg from '../component/assets/signup.svg'
 import './signup.css'
 import { useAuth } from '../context/AuthContext'
 

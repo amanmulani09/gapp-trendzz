@@ -10,7 +10,7 @@ import {
   MDBIcon
 }
   from 'mdb-react-ui-kit';
-import svg from '../assets/login1.svg'
+import svg from '../component/assets/login1.svg'
 const login = () => {
   const { signIn } = useAuth();
   const navigate = useNavigate();

@@ -2,8 +2,8 @@ import { async } from '@firebase/util'
 import React from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
-import profile from '../assets/profile.svg'
-import profileIcon from '../assets/profileicon.png'
+import profile from '../component/assets/profile.svg'
+import profileIcon from '../component/assets/profileicon.png'
 import './account.css'
 export const Account = () => {
   const { user, logout } = useAuth()
