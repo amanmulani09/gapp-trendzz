@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './header.css'
 import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
@@ -9,9 +9,20 @@ const Header = () => {
 
     let {user} = useAuth()
     let loggedInUser = user;
+
+    const [navbar,setnavbar] = useState(false)
+
+    window.addEventListener("scroll",()=>{
+        if(window.scrollY >= 80){
+            setnavbar(true)
+        }else{
+            setnavbar(false)
+}
+    })
+
     return (
         <>
-        <nav>
+        <nav className={navbar ? "nav active" : "nav"}>
 
         <span className='logo'>GAPP-<span className='trendz'>Trendzz</span></span>
 
