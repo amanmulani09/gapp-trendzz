@@ -49,7 +49,7 @@ catch(e){
     <div>
 
       <div className='signupForm'>
-        <nav>
+        {/* <nav>
 
           <span className='logo'>GAPP-<span className='trendz'>Trendzz</span></span>
 
@@ -63,7 +63,7 @@ catch(e){
 
           <Link to="/login" className="loginBtn link">log-in</Link>
 
-        </nav>
+        </nav> */}
         <div className="signup">
           <div className="asideLoginFrom">
 

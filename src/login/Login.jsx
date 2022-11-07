@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext';
+import Header from '../component/header/Header'
 import './Login.css'
 import {
   MDBContainer,
@@ -44,7 +45,7 @@ const login = () => {
 
   return (
     <div>
-      <nav>
+      {/* <nav>
 
         <span className='logo'>GAPP-<span className='trendz'>Trendzz</span></span>
 
@@ -53,8 +54,14 @@ const login = () => {
           <Link to="/" className="link left">Home</Link>
           <Link to="/product" className="link left" >Product</Link>
         </div>
+        
+            <ul className="rightlinks">
+                <Link to='/wishlist'><i class="fa-solid fa-heart"></i></Link>
+                <Link to="/cart"><i class="fa-solid fa-cart-shopping"></i></Link>
+            </ul>
         <Link to="/signup" className="signupBtn link">Sign-up</Link>
-      </nav>
+      </nav> */}
+      <Header />
       <div className="loginForm">
         <div className="asideLoginFrom">
           <img src={svg} alt="" className="loginsvg" />

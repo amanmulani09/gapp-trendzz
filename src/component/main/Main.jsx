@@ -3,6 +3,7 @@ import Header from "../header/Header";
 import MainImg from "../assets/MUFTI3.png";
 import { useNavigate } from "react-router-dom";
 import Categories from '../ProductDatabase/Categories'
+import { Footer } from "../component";
 import "./main.css";
 const main = () => {
   const navigate = useNavigate();
@@ -50,6 +51,8 @@ const main = () => {
           )
         })}
       </div>
+
+      <Footer />
     </>
   );
 };

@@ -68,3 +68,18 @@ color: grey;
     top:15px;
     left:228px;
 }
+
+.rightlinks{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    /* border: 2px solid black; */
+    width: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 800px;
+}
+.rightlinks i{
+color:#BF40BF;
+   font-size: 1.2rem;
+}
