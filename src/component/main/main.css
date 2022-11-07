@@ -8,9 +8,10 @@ border-radius: 12px;
 } */
 
 .MainImg img {
-    height: 86vh;
+    width: 100%;
+    height: fit-content;
 border-radius: 12px;
-margin-left: 16%;
+/* margin-left: 17%; */
 box-shadow: 10px 10px 22px 0px rgba(166,166,166,1);
 
 
@@ -24,8 +25,8 @@ box-shadow: 10px 10px 22px 0px rgba(166,166,166,1);
     border-radius: 8px;
     border: none;
     position: absolute;
-    right: 18%;
-    bottom: 6%;
+    right: 44%;
+    bottom: 1%;
 }
 .ExpBtn:hover{
     color: white;
@@ -42,3 +43,74 @@ box-shadow: 10px 10px 22px 0px rgba(166,166,166,1);
 .BtnContainer{
     display: flex;
 }
+
+.categoryHeading{
+    width: 100%;
+    height: 12%;
+    background-color: black;
+    color: white;
+    margin-top: 22px;
+    text-align: center;
+    padding: 18px;
+}
+
+
+.maincategories{
+ width: 100%;
+ border: 1px solid black;
+ display: flex;
+
+}
+
+
+
+
+.CategoryCard {
+    /* border:2px solid grey; */
+    margin:2px;
+    position: relative;
+    width: 99%;
+  
+}
+
+
+
+.CategoryImage {
+width: 100%;
+opacity: 1;
+display: block;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+
+}
+
+.CategoryImage:hover{
+    opacity: 0.3;
+}
+
+.CategoryCard:hover .middle{
+    opacity: 1;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.CategoryName {
+position: relative;
+    text-align: center;
+    bottom: 55px;
+    background-color: #BF40BF;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
