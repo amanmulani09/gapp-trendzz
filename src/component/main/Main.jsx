@@ -3,10 +3,22 @@ import Header from "../header/Header";
 import MainImg from "../assets/MUFTI3.png";
 import { useNavigate } from "react-router-dom";
 import Categories from '../ProductDatabase/Categories'
-import { Footer } from "../component";
+import Products from "../ProductDatabase/Products";
+// import { Footer } from "../component";
+import {Footer} from "../component"
 import "./main.css";
 const main = () => {
   const navigate = useNavigate();
+
+  const Jeans_category = Products.filter((Filtered_item)=>{
+   return Filtered_item.CategoryName = "Jeans"
+
+  })
+
+  const Category_Btn = (Products) => {
+
+  }
+
   return (
     <>
       <Header />
@@ -42,7 +54,7 @@ const main = () => {
                 src={item.CategoryImage}
               ></img>
               <div className="middle">
-              <h5 className="CategoryName">{item.CategoryName}</h5>
+              <h5 className="CategoryName" onClick={Category_Btn}>{item.CategoryName}</h5>
 
               </div>
             </div>

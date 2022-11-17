@@ -2,14 +2,15 @@ import React from "react";
 import Header from "../header/Header";
 import Products from "../ProductDatabase/Products";
 import "./product.css";
-
+import Filtered_List from "../Filtered_List/Filtered_List";
 const Product = () => {
   // console.log(Products)
   return (
     <>
       <Header />
       <div className="MainContainer">
-        <div className="Filter"></div>
+
+       <Filtered_List />
         <div className="ProductContainer">
           {Products.map((product) => {
             return (
