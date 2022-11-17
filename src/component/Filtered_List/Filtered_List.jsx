@@ -2,8 +2,8 @@ import React from "react";
 import "./Filtered.css";
 const Filtered_List = () => {
   return (
-    <div className="Filtered">
-      <div className="Category">
+    <div className="Category">
+      <div className="Filtered">
         <h5>Categories</h5>
         <div>
           <input type="checkbox" className="Check_Category" />

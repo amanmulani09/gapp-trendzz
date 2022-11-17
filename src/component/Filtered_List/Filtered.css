@@ -1,6 +1,6 @@
-.Filtered{
+.Category{
     /* border: 2px solid red; */
-    height: 0%;
+    height: 80vh;
     width: 20vw;
     border-radius: 8px;
     position: sticky;
