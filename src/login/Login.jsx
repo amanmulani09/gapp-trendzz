@@ -56,8 +56,8 @@ const login = () => {
         </div>
         
             <ul className="rightlinks">
-                <Link to='/wishlist'><i class="fa-solid fa-heart"></i></Link>
-                <Link to="/cart"><i class="fa-solid fa-cart-shopping"></i></Link>
+                <Link to='/wishlist'><i className="fa-solid fa-heart"></i></Link>
+                <Link to="/cart"><i className="fa-solid fa-cart-shopping"></i></Link>
             </ul>
         <Link to="/signup" className="signupBtn link">Sign-up</Link>
       </nav> */}

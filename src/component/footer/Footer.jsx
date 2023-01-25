@@ -22,9 +22,9 @@ export const Footer = () => {
         </div>
         <div className="Follow he">
           <h5 className="Foot-Head">FOLLOW US</h5>
-        <i class=" foot-icon fa-brands fa-discord"></i>
-        <i class=" foot-icon fa-brands fa-instagram"></i>
-        <i class=" foot-icon fa-brands fa-youtube"></i>
+        <i className=" foot-icon fa-brands fa-discord"></i>
+        <i className=" foot-icon fa-brands fa-instagram"></i>
+        <i className=" foot-icon fa-brands fa-youtube"></i>
         </div>
       </div>
       <div className="copyright">

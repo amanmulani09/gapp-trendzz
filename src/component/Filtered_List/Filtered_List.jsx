@@ -26,30 +26,55 @@ const Filtered_List = () => {
       <div className="Costomer_Rating">
         <h5>Costomer_Rating</h5>
         <div>
-          <input type="radio" value="4&above" name="rating" className="Check_Category"></input>
+          <input
+            type="radio"
+            value="4&above"
+            name="rating"
+            className="Check_Category"
+          ></input>
           <label htmlFor="2&above">4⭐ & above</label>
         </div>
 
         <div>
-          <input type="radio" value="4&above" name="rating" className="Check_Category" ></input>
+          <input
+            type="radio"
+            value="4&above"
+            name="rating"
+            className="Check_Category"
+          ></input>
           <label htmlFor="2&above">3⭐ & above</label>
         </div>
 
         <div>
-          <input type="radio" value="4&above" name="rating" className="Check_Category"></input>
+          <input
+            type="radio"
+            value="4&above"
+            name="rating"
+            className="Check_Category"
+          ></input>
           <label htmlFor="2&above">2⭐ & above</label>
         </div>
       </div>
 
       <div className="sort">
         <h5>Sort:</h5>
-      <div>
-          <input type="radio" value="4&above" name="rating" className="Check_Category"></input>
+        <div>
+          <input
+            type="radio"
+            value="4&above"
+            name="rating"
+            className="Check_Category"
+          ></input>
           <label htmlFor="Low to High">Low to High</label>
         </div>
 
         <div>
-          <input type="radio" value="4&above" name="rating" className="Check_Category"></input>
+          <input
+            type="radio"
+            value="4&above"
+            name="rating"
+            className="Check_Category"
+          ></input>
           <label htmlFor="Low to High">Low to High</label>
         </div>
       </div>
